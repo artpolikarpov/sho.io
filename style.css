@@ -58,8 +58,8 @@ header:before {
     height: 100%;
     left: 0;
     width: 100%;
-    background-color: #111;
-    opacity: .7;
+    background-color: #fff;
+    opacity: .5;
 }
 
 .header-inner {
@@ -70,8 +70,8 @@ header:before {
     position: relative;
     font-size: 18px;
     line-height: 30px;
-    color: #fff;
-    text-shadow: 0 -1px 0 #000;
+    color: #000;
+    /*text-shadow: 1px 1px 0px #ff6;*/
 }
 
 main {
