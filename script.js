@@ -1,6 +1,6 @@
 $(function () {
-   $(document).on('click', '.jouele', function (event) {
-       var $jouele = $(event.currentTarget).data('jouele');
+   $(document).on('click', '.jouele-info', function (event) {
+       var $jouele = $(event.currentTarget).parent().data('jouele');
 
        if ($jouele.isPlaying()) {
            $jouele.pause();
